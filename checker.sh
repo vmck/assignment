@@ -1,4 +1,5 @@
 #!/bin/bash
 
+unzip -qq archive.zip
 ./check.sh
-echo 100/100
+exit $?
