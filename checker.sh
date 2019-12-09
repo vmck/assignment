@@ -2,5 +2,5 @@
 
 unzip -qq archive.zip
 unzip -qq -o artifact.zip
-sleep 300
+./run.sh
 exit $?
